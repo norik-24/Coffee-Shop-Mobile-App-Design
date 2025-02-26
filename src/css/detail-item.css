@@ -135,3 +135,30 @@ footer {
     padding: 15px;
     margin-top: 10px;
 }
+
+.price span {
+    font-family: "Sora-Regular";
+    display: flex;
+    margin-top: -25px;
+    color: var(--color-17);
+    font-size: 15px;
+}
+.price1{
+    font-family: "Sora-SemiBold";
+    display: flex;
+    margin-top: -45px;
+    margin-left: 14px;
+    color: var(--color-3);
+
+}
+
+.buy-btn {
+    font-family: "Sora-SemiBold";
+    background-color: var(--color-3);
+    color: var(--color-1);
+    padding: 15px 80px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
