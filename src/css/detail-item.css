@@ -46,3 +46,16 @@ header {
     width: 100%;
     border-radius: 10px;
 }
+
+.Line{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+.rating {
+    font-family: "Sora-SemiBold";
+    color: var(--color-4);
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
