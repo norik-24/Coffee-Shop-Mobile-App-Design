@@ -79,3 +79,15 @@ h1{
 .search{
     display: flex;
 }
+
+.Promo{
+    display: flex;
+    margin-top: 20px;
+}
+.Promotxt{
+    font-family: "Sora-SemiBold";
+    color: var(--color-1);
+}
+.Banner{
+    align-items: center;
+}
