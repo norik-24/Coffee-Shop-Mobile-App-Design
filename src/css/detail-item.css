@@ -108,3 +108,30 @@ header {
     justify-content: space-around;
     margin-top: 10px;
 }
+
+.sizes button {
+    font-family: "Sora-SemiBold";
+    padding: 10px 40px;
+    background-color:var(--color-1);
+    border-color: var(--color-16); 
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.sizes .selected {
+    border-color: var(--color-3); 
+    background-color:var(--color-1);
+    color: var(--color-3);
+}
+
+footer {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-1);
+    padding: 15px;
+    margin-top: 10px;
+}
