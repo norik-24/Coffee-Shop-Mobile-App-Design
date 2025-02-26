@@ -1,0 +1,28 @@
+
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.map {
+    background-color: yellow;
+}
+header {
+    background-color: blue;
+
+}
+
+main {
+    background-color: red;
+}
+
+footer {
+    background-color: green;
+}
