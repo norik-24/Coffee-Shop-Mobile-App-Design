@@ -74,3 +74,17 @@ header {
     color: var(--color-3) ;
     text-decoration: none;
 }
+
+.description {
+    font-family: "Sora-SemiBold";
+    color: var(--color-5);
+}
+
+.description1 {
+    font-family: "Sora-Light";
+    color: var(--color-4);
+}
+
+.Ice-Hot {
+    color: var(--color-4);
+}
