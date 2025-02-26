@@ -8,7 +8,7 @@
 header{
     background: linear-gradient(250deg, var(--color-10),75%, var(--color-11));
     display: flex;
-    height: 280px;
+    height: 340px;
     width: 600px;
 }
 
@@ -19,33 +19,63 @@ header{
 h1{
     font-family: "Sora-Regular";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--color-4);
 }
 .region{
     display: inline-flex;
     margin-top: 10px;
     font-family: "Sora-SemiBold";
-    font-size: 16px;
+    font-size: 20px;
     color: var(--color-12);
 }
 
-.main_input{
+.Down_arrow_icon{
     display: flex;
+    width: 22px;
+    margin-top: -24px;
+    margin-left: 210px;
+}
+
+.search_coffee{
     background-color: var(--color-13);
-    background-image: url(../storage/img/Home/Search-icon.png);
-    background-size:20px 20px;
-    background-position: 20px center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
+    background-image: url(../storage/img/Home/Search-icon.png); /* Icono de busqueda */
+    background-size:25px 25px; /* Tamaño icono de busqueda */
+    background-position: 15px center; /* Posición del icono de busqueda */
+    background-repeat: no-repeat; /* No repetir el icono de busqueda */
+    border-radius: 20px; 
+    /* Posición del input */
     margin: 10px;
-    margin-top: 30px;
-    padding-left: 45px;
-    width: 280px;
-    height: 55px;
-    font-size: 18px;
+    margin-top: 30px; 
+    /* Posicion del texto del input (Espacio interior)*/
+    padding-left: 50px;
+    padding-top: 2px; 
+    /* Tamaño del input */
+    width: 430px;
+    height: 80px;
+    /* Tamaño del texto del input */
+    font-size: 20px; 
+    font-weight: 200;
+    /* Mejora la apariencia del input */
     outline: none;
     border: none;
     font-family:"Sora-Regular";
-    color: var(--color-4);
+    color: var(--color-12);
+}
+
+.menu_icon{
+    /* Espacio interior */
+    padding: 23px;
+    background-position:center ;
+    margin-top: 32px;
+    margin-left: 15px;
+    /* Tamaño */
+    border-radius: 20px;
+    width: 75px;
+    height: 78px;
+    background-color: var(--color-3);
+}
+
+.search{
+    display: flex;
 }
