@@ -124,6 +124,7 @@ header {
 .sizes button:active{
     background-color: var(--color-22);
     border-color: var(--color-3);
+    color: var(--color-3);
 }
 
 footer {
