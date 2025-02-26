@@ -59,3 +59,18 @@ header {
     align-items: center;
     margin-top: 5px;
 }
+
+.rating img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.rating2 {
+    font-family: "Sora-SemiBold";
+    color: var(--color-13);
+}
+.Read{
+    font-family: "Sora-Light";
+    color: var(--color-3) ;
+    text-decoration: none;
+}
