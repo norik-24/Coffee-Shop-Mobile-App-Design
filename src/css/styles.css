@@ -4,3 +4,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.2),transparent), url(../storage/img/background-main-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0px;
+    background-color: var(--color-8);
+}
+
+h1{
+    color:white;
+    text-align: center;
+    display:flex;
+    position:relative;
+    padding-top:185%;
+    font-size:32px;
+    font-family:"Sora-SemiBold";
+}
+p{
+    color:var(--color-1);
+    display:flex;
+    text-align:center;
+    font-size:14px;
+    font-family: "Sora-Regular";
+
+}
