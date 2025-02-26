@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/delivery.css">
-
-    <title>delivery</title>
+    <title>Delivery</title>
 </head>
 <body>
-    <!-- Contenido principal -->
-    <main>
+    <header class="header-container">
+        <div class="header-box">
+            <a class="Back" href="#"><img src="../storage/img/img-delivery/Back.png" alt="Back"></a>
+            <button class="button-location"><img src="../storage/img/img-delivery/icon-location.png" alt="Location"></button>
+        </div>
+    </header>
 
-        <div class="map">
-                    <a class="Back" href="#"><img src="../storage/img/img-delivery/Back.png" alt="Back"></a>
-        <button class="button-location"><img src="../storage/img/img-delivery/icon-location.png" alt="Menu"></button>
-            <iframe src="URL_DEL_MAPA"></iframe>
+    <!-- Contenido principal -->
+    <main class="main-container">
+        <!-- Mapa -->
+        <div class="map-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2032030.4882659502!2d-74.95961881045308!3d5.882367674891082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683f18ef59f9a1%3A0xffbf118f3e8f20c!2sZona%20Franca%20Santander!5e0!3m2!1ses!2sco!4v1740581963365!5m2!1ses!2sco" 
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
         </div>
 
-        <section class="delivery-info">
-            <img src="../storage/img/img-delivery/Indicator.png" alt="">
+        <!-- Información de entrega -->
+        <section class="delivery-box">
+            <img src="../storage/img/img-delivery/Indicator.png" alt="Indicator">
             <h2>10 minutes left</h2>
             <p>Delivery to <strong>Jl. Kpg Sutoyo</strong></p>
             <div class="progress-bar">
@@ -30,22 +37,26 @@
             </div>
         </section>
 
-        <section class="status">
+        <!-- Estado del pedido -->
+        <section class="delivery-status">
+            <img src="../storage/img/img-delivery/Icon-route-deliver.png" alt="Delivered">
             <p>Delivered your order</p>
+            <p class="subtitle">We will deliver your goods to you in the shortest possible time.</p>
         </section>
     </main>
 
     <!-- Información del repartidor -->
-    <footer>
+    <footer class="footer-container">
         <div class="courier-info">
-            <img src="../storage/img/img-delivery/Deliver.png" alt="Repartidor">
-            <div>
-                <img src="../storage/img/img-delivery/men.png" alt="foto del repartidor">
+            <img class="courier-img" src="../storage/img/img-delivery/men.png" alt="Courier Photo">
+            <div class="courier-details">
                 <h3>Brooklyn Simmons</h3>
                 <p>Personal Courier</p>
-                <img src="../storage/img/img-delivery/icon-Call.png" alt="">
             </div>
+            <button class="call-button">
+                <img src="../storage/img/img-delivery/icon-Call.png" alt="Call">
+            </button>
         </div>
     </footer>
-
 </body>
+</html>

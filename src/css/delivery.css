@@ -2,40 +2,23 @@
 /* Estilos generales */
 
 body {
-    margin: 0;
     padding: 0;
-    background-color: aqua;
-}
-.map {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Ajusta según necesites */
-    overflow: visible;
+    margin: 0;
 }
 
-/* Botón de regreso en la esquina superior izquierda */
+/* Ajustar tamaño del botón Back */
 .Back {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Back img {
-    width: 100px;
-    height: 100px;
+    top: 40px;
+    left: 24px;
+    width: auto; /* Elimina restricciones de ancho */
 }
 
 /* Botón de ubicación en la esquina superior derecha */
 .button-location {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 40px;
+    right: 24px;
     width: 40px;
     height: 40px;
     border-radius: 25%;
@@ -47,22 +30,104 @@ body {
 
 /* Ajustar tamaño de los íconos dentro de los botones */
 .Back img, .button-location img {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Caja que contiene el mapa */
+.map-box {
+    width: 100%; /* Puedes ajustar el ancho aquí, por ejemplo: 80% o 600px */
+    max-width: 700px; /* Limita el ancho máximo del mapa */
+    margin: 0 auto; /* Centra el mapa */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+/* Estilo del iframe (mapa) */
+.map-box iframe {
+    width: 100%; /* Hace que el iframe ocupe todo el ancho de la caja */
+    height: 570px; /* Ajusta la altura del mapa, puedes poner cualquier valor que desees */
+    border: 0; /* Elimina el borde del mapa */
 }
 
 
-.map iframe{
-    background-color: oldlace;
-    width: 100%;
-    height: 200px;
+.delivery-box {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: -40px auto 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+
 }
 
 
-main {
-    background-color: red;
+
+
+
+
+
+
+
+
+
+
+
+/* Información del repartidor */
+.footer-container {
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: green;
+.courier-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
+
+.courier-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+}
+
+.courier-details h3 {
+    margin: 0;
+
+    font-size: 16px;
+}
+
+.courier-details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.call-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.call-button img {
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
