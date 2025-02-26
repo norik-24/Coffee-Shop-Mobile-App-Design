@@ -24,8 +24,28 @@ h1{
 }
 .region{
     display: inline-flex;
-    margin-top: 8px;
+    margin-top: 10px;
     font-family: "Sora-SemiBold";
     font-size: 16px;
     color: var(--color-12);
+}
+
+.main_input{
+    display: flex;
+    background-color: var(--color-13);
+    background-image: url(../storage/img/Home/Search-icon.png);
+    background-size:20px 20px;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding-left: 45px;
+    width: 280px;
+    height: 55px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    font-family:"Sora-Regular";
+    color: var(--color-4);
 }
