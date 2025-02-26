@@ -1,0 +1,31 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(250deg, var(--color-10),75%, var(--color-11));
+    display: flex;
+    height: 280px;
+    width: 600px;
+}
+
+.main_header{
+    margin: 30px;
+    margin-top: 50px;
+}
+h1{
+    font-family: "Sora-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-4);
+}
+.region{
+    display: inline-flex;
+    margin-top: 8px;
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-12);
+}
