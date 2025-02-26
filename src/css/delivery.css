@@ -59,9 +59,23 @@ body {
     width: center;
 }
 
+.delivery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    margin-top: -15px;
+}
+.delivery-box img:first-child {
+    left: 10px;
+    width: 50px;
+}
 
 
-
+.delivery-box img {
+    width: 86px;
+    height: 6px;
+}
 
 /* Información del repartidor */
 .footer-container {
