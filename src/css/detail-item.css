@@ -1,4 +1,7 @@
 @import url(variables.css);
+* {
+    font-family: 'Arial', sans-serif;
+}
 
 body {
     background-color: var(--color-1);
@@ -118,11 +121,9 @@ header {
     border-radius: 15px;
     font-size: 16px;
 }
-
-.sizes .selected {
-    border-color: var(--color-3); 
-    background-color:var(--color-1);
-    color: var(--color-3);
+.sizes button:active{
+    background-color: var(--color-22);
+    border-color: var(--color-3);
 }
 
 footer {
