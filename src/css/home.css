@@ -1,11 +1,10 @@
 @import url(variables.css);
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Bloque y tamaño ajustado*/
 header {
     background: linear-gradient(250deg, var(--color-10) 75%, var(--color-11));
     display: flex;
@@ -14,18 +13,21 @@ header {
     max-width: 600px;
     margin: 0 auto;
 }
-
+/* Margen parte superior*/
 .main_header {
     margin: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
+/* Location*/
 h1 {
     font-family: "Sora-Regular";
     font-weight: 400;
     font-size: 18px; /* Valor fijo o puede sustituirse por una unidad relativa si lo prefieres */
     color: var(--color-4);
 }
+
+/* Bilzen, Tanjungbalai */
 
 .region {
     display: inline-flex;
@@ -35,37 +37,39 @@ h1 {
     color: var(--color-12);
 }
 
+/* Icono mirando hacia abajo junto a Bilzen, Tanjungbalai */
+
 .Down_arrow_icon {
     position: relative;
     top: 2px;
-    left: 10px;
+    left: 10px;/* Se alinea al final del contenedor */
     width: 18px;
-    margin-left: auto; /* Se alinea al final del contenedor */
 }
-
+/* Cuerpo input general */
 .search {
     display: flex;
     align-items: center;
 }
 
+/* Input buscar cafe*/
 .search_coffee {
     background-color: var(--color-13);
     background-image: url(../storage/img/Home/Search-icon.png); /* Icono de búsqueda */
-    background-size: 25px 25px;
-    background-position: 15px center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    margin: 10px;
+    background-size: 25px 25px; /* Tamaño del icono */
+    background-position: 15px center; /* Posicion del icono */
+    background-repeat: no-repeat; /* Hacer que no se repita el icono */
+    border-radius: 20px; 
+    margin: auto;
     margin-top: 30px;
+    /* Posicion texto de escritura */
     padding-left: 50px;
     padding-top: 2px;
-    /* width relativa y definimos límites con max-width y min-width */
+    /*  Tamaño del input ( width relativa y definimos límites con max-width y min-width) */
     width: 90%;
     max-width: 430px;
-    min-width: 200px;
     height: 80px;
     font-size: 20px;
-    font-weight: 200;
+    /* Ajuste escritura usuario*/
     outline: none;
     border: none;
     font-family: "Sora-Regular";
@@ -73,24 +77,26 @@ h1 {
 }
 
 .menu_icon {
-    padding: 23px;
+    padding: 22px; /* Ajuste tamaño icono imagen */
     background-position: center;
-    margin-top: 32px;
-    margin-left: 15px;
+    margin: 10px;
+    margin-top: 30px;
     border-radius: 20px;
-    width: 75px;
-    height: 78px;
+    max-width: 600%;
+    height: 80px;
+    width: 80px;
     background-color: var(--color-3);
 }
-
+/* Texto Promo */
 .Promo {
     position: relative;
     width: 100%;
     max-width: 600px; /* Limita el ancho máximo */
     margin: 0 auto; /* Centra el contenedor */
 }
-
+/* Banner fondo tazas de cafes*/
 .Banner {
+    margin-top: 10px;
     width: 100%;
     border-radius: 20px;
     height: auto; /* La altura se ajusta proporcionalmente */
@@ -99,20 +105,38 @@ h1 {
 .Promotxt1{
     position: absolute;
     background-color: var(--color-15);
-    width: 70px;
+    width: 77px;
+    max-width: 600px;
     border-radius: 10px;
-    height: 30px;
+    height: 33px;
     align-content: center;
     text-align: center;
-    top: 30px;
+    margin-top: 25px;
     margin-left: 25px;
     font-family: "Sora-SemiBold";
     color: var(--color-1);
-    margin-right: 10px;
 }
 
 .Promotxt2{
-    font-family: "Sora-SemiBold";
     position: absolute;
+    max-width: 600px;
+    font-size: 36px;
+    margin-top: 62px;
+    margin-left: 28px;
+    font-family: "Sora-SemiBold";
     color: var(--color-1);
+}
+
+.Line1{
+    position: absolute;
+    width: 225px;
+    left: 25px;
+    top: 80px;
+}
+
+.Line2{
+    position: absolute;
+    width: 168px;
+    left: 25px;
+    top: 123px;
 }
