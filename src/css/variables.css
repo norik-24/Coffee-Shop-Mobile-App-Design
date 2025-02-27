@@ -23,10 +23,15 @@
 }
 @font-face {
     font-family: "Sora-Regular";
-    src: url(../storage/font/Sora/static/Sora-Regular.ttf);
+    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf);
 }
 
 @font-face {
     font-family: "Sora-SemiBold";
-    src: url(../storage/font/Sora/static/Sora-SemiBold);
+    src: url(../storage/fonts/Sora/static/Sora-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Sora-mixed";
+    src: url(../storage/fonts/Sora/static/Sora-Medium.ttf);
 }

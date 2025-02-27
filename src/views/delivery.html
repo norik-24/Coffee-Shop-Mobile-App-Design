@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/delivery.css">
+    <link rel="stylesheet" href="../css/variables.css">
     <title>Delivery</title>
 </head>
 <body>
-    <header class="header-container">
-        <div class="header-box">
+    <header>
+        <div>
             <a class="Back" href="#"><img src="../storage/img/img-delivery/Back.png" alt="Back"></a>
             <button class="button-location"><img src="../storage/img/img-delivery/icon-location.png" alt="Location"></button>
         </div>
@@ -28,7 +29,7 @@
             <div class="delivery-box">
                 <img src="../storage/img/img-delivery/Indicator.png" alt="Indicator">
                 <h2>10 minutes left</h2>
-                <p>Delivery to <strong>Jl. Kpg Sutoyo</strong></p>
+                <p class="subtitle">Delivery to <strong>Jl. Kpg Sutoyo</strong></p>
                 <div class="progress-bar">
                     <div class="progress"></div>
                     <img src="../storage/img/img-delivery/icon-Rectangle-1.png" alt="">
@@ -40,8 +41,10 @@
         
             <div class="delivery-status">
                 <img src="../storage/img/img-delivery/Icon-route-deliver.png" alt="Delivered">
-                <p>Delivered your order</p>
-                <p class="subtitle">We will deliver your goods to you in the shortest possible time.</p>
+                <div class="delivery-text">
+                    <strong>Delivered your order</strong>
+                    <p>We will deliver your goods to you in the shortest possible time.</p>
+                </div>
             </div>
         
             <div class="courier-info">
