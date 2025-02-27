@@ -4,11 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* -------------------------------------------- header --------------------------------------------- */
+
 /* Bloque y tamaño ajustado*/
 header {
     background: linear-gradient(250deg, var(--color-10) 75%, var(--color-11));
     display: flex;
-    height: 340px;
+    height: 300px;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -96,7 +100,7 @@ h1 {
 }
 /* Banner fondo tazas de cafes*/
 .Banner {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
     border-radius: 20px;
     height: auto; /* La altura se ajusta proporcionalmente */
@@ -111,8 +115,8 @@ h1 {
     height: 33px;
     align-content: center;
     text-align: center;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 33px;
+    margin-left: 24px;
     font-family: "Sora-SemiBold";
     color: var(--color-1);
 }
@@ -120,23 +124,140 @@ h1 {
 .Promotxt2{
     position: absolute;
     max-width: 600px;
-    font-size: 36px;
-    margin-top: 62px;
-    margin-left: 28px;
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: 24px;
     font-family: "Sora-SemiBold";
     color: var(--color-1);
 }
 
 .Line1{
     position: absolute;
-    width: 225px;
-    left: 25px;
-    top: 80px;
+    width: 205px;
+    left: 20px;
+    top: 95px;
 }
 
 .Line2{
     position: absolute;
-    width: 168px;
-    left: 25px;
-    top: 123px;
+    width: 155px;
+    left: 20px;
+    top: 135px;
+}
+/* ------------------------------------------------- nav  ----------------------------------------------- */
+.nav__categoria {
+    background-color: var(--color-6);
+    padding: 41px 20px 0px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 5px;
+}
+
+.nav__categoria li {
+    background: var(--color-1);
+    flex: 1;
+    list-style: none;
+    border-radius: 10px;
+    min-width: 95px;
+    height: 35px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    text-decoration: none;
+    color: var(--color-11);
+    font-family: "Sora-Regular";
+    font-size: 16px;
+}
+
+li.select {
+    background: var(--color-3);
+}
+
+li.select a {
+    color: var(--color-1);
+}
+
+li:active a {
+    background: var(--color-19);
+}
+
+li:active a {
+    color: var(--color-19);
+}
+
+/* ------------------------------------------------- main ----------------------------------------------- */ 
+main{
+    padding: 41px 19px 0px;
+    background-color: var(--color-6);
+}
+.section__productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article__contenedora {
+    background: var(--color-1);
+    width: 47%;
+    margin-bottom: 5%;
+    height: 225px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+}
+.article__contenedora > img{
+    height: 130px;
+    padding: 10px 15px 0px;
+    position: relative;
+    z-index: 10;
+}
+
+.div__informacion {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+
+}
+.div__informacion strong{
+    font-family: "Sora-SemiBold";
+    color: var(--color-5);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.div__informacion p{
+    font-family: "Sora-Regular";
+    color: var(--color-4);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.div__valoracion {
+    font-family: "Sora-SemiBold";
+    display: flex;
+    padding: 0 10px;
+    gap: 3px;
+}
+.div__valoracion > img{
+    background-color: var(--color-3);
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.div__valoracion label{
+    font-family: "Sora-SemiBold";
+    color: var(--color-8);
+}
+.div__comentarios > img{
+    /* background-color: black; */
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
 }
