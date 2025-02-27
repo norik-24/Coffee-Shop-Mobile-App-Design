@@ -228,11 +228,22 @@ main{
     position: relative;
     z-index: 10;
 }
+/* ------------------------ Parte superior de los cafes -------------------------------------------------------------------------------*/ 
 
-.Star{
-    position: absolute;
+.Star1{
+    position: relative;
     z-index: 20;
-    top: 5px;
+    top: -149px;
+    left: 115px;
+    width: 12px;  /* Ajusta el tamaño de la estrella */
+    height: auto; /* Mantiene la proporción */
+}
+/* ----------------------- Parte inferior de los cafes --------------------------------------------------------------------------------*/ 
+
+.Star2{
+    position: relative;
+    z-index: 10;
+    top: -143px;
     left: 115px;
     width: 12px;  /* Ajusta el tamaño de la estrella */
     height: auto; /* Mantiene la proporción */
@@ -286,4 +297,26 @@ main{
     border-radius: 5px;
     margin-top: -5px;
     margin-left: 60px;
+}
+/**************** footer ******************/
+footer{
+    background-color: var(--color-1);
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    padding: 17px 50px 17px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: -1px;
+    z-index: 10;
+}
+.div__izquierdo {
+    display: flex;
+    gap:80px;
+}
+
+.div__derecho {
+    display: flex;
+    gap:80px;
 }
