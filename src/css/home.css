@@ -1,0 +1,322 @@
+@import url(variables.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------------------- header --------------------------------------------- */
+
+/* Bloque y tamaño ajustado*/
+header {
+    background: linear-gradient(250deg, var(--color-10) 75%, var(--color-11));
+    display: flex;
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Margen parte superior*/
+.main_header {
+    margin: 30px;
+    margin-top: 20px;
+}
+
+/* Location*/
+h1 {
+    font-family: "Sora-Regular";
+    font-weight: 400;
+    font-size: 18px; /* Valor fijo o puede sustituirse por una unidad relativa si lo prefieres */
+    color: var(--color-4);
+}
+
+/* Bilzen, Tanjungbalai */
+
+.region {
+    display: inline-flex;
+    margin-top: 10px;
+    font-family: "Sora-SemiBold";
+    font-size: 20px;
+    color: var(--color-12);
+}
+
+/* Icono mirando hacia abajo junto a Bilzen, Tanjungbalai */
+
+.Down_arrow_icon {
+    position: relative;
+    top: 2px;
+    left: 10px;/* Se alinea al final del contenedor */
+    width: 18px;
+}
+/* Cuerpo input general */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+/* Input buscar cafe*/
+.search_coffee {
+    background-color: var(--color-13);
+    background-image: url(../storage/img/Home/Search-icon.png); /* Icono de búsqueda */
+    background-size: 25px 25px; /* Tamaño del icono */
+    background-position: 15px center; /* Posicion del icono */
+    background-repeat: no-repeat; /* Hacer que no se repita el icono */
+    border-radius: 20px; 
+    margin: auto;
+    margin-top: 30px;
+    /* Posicion texto de escritura */
+    padding-left: 50px;
+    padding-top: 2px;
+    /*  Tamaño del input ( width relativa y definimos límites con max-width y min-width) */
+    width: 90%;
+    max-width: 430px;
+    height: 80px;
+    font-size: 20px;
+    /* Ajuste escritura usuario*/
+    outline: none;
+    border: none;
+    font-family: "Sora-Regular";
+    color: var(--color-12);
+}
+
+.menu_icon {
+    padding: 22px; /* Ajuste tamaño icono imagen */
+    background-position: center;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    max-width: 600%;
+    height: 80px;
+    width: 80px;
+    background-color: var(--color-3);
+}
+/* Texto Promo */
+.Promo {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el contenedor */
+}
+/* Banner fondo tazas de cafes*/
+.Banner {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto; /* La altura se ajusta proporcionalmente */
+}
+
+.Promotxt1{
+    position: absolute;
+    margin: 0 auto;
+    background-color: var(--color-15);
+    width: 77px;
+    max-width: 600px;
+    border-radius: 10px;
+    height: 33px;
+    align-content: center;
+    text-align: center;
+    margin-top: 33px;
+    margin-left: 24px;
+    font-family: "Sora-SemiBold";
+    color: var(--color-1);
+}
+
+.Promotxt2{
+    position: absolute;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: 24px;
+    font-family: "Sora-SemiBold";
+    color: var(--color-1);
+}
+
+.Line1{
+    position: absolute;
+    margin: 0 auto;
+    width: 205px;
+    left: 20px;
+    top: 95px;
+}
+
+.Line2{
+    position: absolute;
+    margin: 0 auto;
+    width: 155px;
+    left: 20px;
+    top: 135px;
+}
+/* ------------------------------------------------- nav  ----------------------------------------------- */
+.nav__categoria {
+    background-color: var(--color-6);
+    margin: 0 auto;
+    padding: 41px 20px 0px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 5px;
+}
+
+.nav__categoria li {
+    background: var(--color-1);
+    margin: 0 auto;
+    height: auto;
+    flex: 1;
+    list-style: none;
+    border-radius: 10px;
+    min-width: 95px;
+    height: 35px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    height: auto;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--color-11);
+    font-family: "Sora-Regular";
+    font-size: 16px;
+}
+
+li.select {
+    height: auto;
+    background: var(--color-3);
+}
+
+li.select a {
+    height: auto;
+    color: var(--color-1);
+}
+
+li:active a {
+    height: auto;
+    background: var(--color-19);
+}
+
+li:active a {
+    height: auto;
+    color: var(--color-19);
+}
+
+/* ------------------------------------------------- main ----------------------------------------------- */ 
+main{
+    margin: 0 auto;
+    padding: 41px 20px 0px;
+    background-color: var(--color-6);
+}
+.section__productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article__contenedora {
+    background: var(--color-1);
+    width: 47%;
+    margin-bottom: 5%;
+    height: 250px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    position: relative;
+}
+.article__contenedora > img{
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+/* ------------------------ Parte superior de los cafes -------------------------------------------------------------------------------*/ 
+
+.Star1{
+    position: relative;
+    z-index: 20;
+    top: -149px;
+    left: 115px;
+    width: 12px;  /* Ajusta el tamaño de la estrella */
+    height: auto; /* Mantiene la proporción */
+}
+/* ----------------------- Parte inferior de los cafes --------------------------------------------------------------------------------*/ 
+
+.Star2{
+    position: relative;
+    z-index: 10;
+    top: -143px;
+    left: 115px;
+    width: 12px;  /* Ajusta el tamaño de la estrella */
+    height: auto; /* Mantiene la proporción */
+}
+
+.rating {
+    position: absolute;
+    z-index: 20;
+    top: 5px;
+    left: 130px;
+    font-family: "Sora-SemiBold";
+    color: var(--color-1);
+    font-size: 12px; 
+}
+
+/* -------------------------------------------------------------------------------------------------------*/ 
+.div__informacion {
+    display: flex;
+    gap: 5px;
+    margin-top: -45px;
+    margin-left: 15px;
+    flex-direction: column;
+    padding: 0px 10px;
+
+}
+.div__informacion strong{
+    font-family: "Sora-SemiBold";
+    color: var(--color-5);
+    white-space: nowrap;
+}
+.div__informacion p{
+    font-family: "Sora-Regular";
+    color: var(--color-4);
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+.div__valoracion {
+    font-family: "Sora-SemiBold";
+    display: flex;
+    margin-left: 15px;
+    padding: 0 10px;
+    gap: 3px;
+}
+.div__valoracion > img{
+    background-color: var(--color-3);
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: 60px;
+}
+/**************** footer ******************/
+footer{
+    background-color: var(--color-1);
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    padding: 17px 50px 17px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: -1px;
+    z-index: 10;
+}
+.div__izquierdo {
+    display: flex;
+    gap:80px;
+}
+
+.div__derecho {
+    display: flex;
+    gap:80px;
+}
