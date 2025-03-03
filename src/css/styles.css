@@ -4,3 +4,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.2),transparent), url(../storage/img/background-main-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0px;
+    background-color: var(--color-8);
+}
+
+.principal{
+    /*background-color:aquamarine;*/
+    display:grid;
+    place-items:center;
+
+}
+
+h1{
+    color:var(--color-1);
+    text-align: center;
+    display:flex;
+    position:relative;
+    padding-top:185%;
+    font-size:32px;
+    font-family:"Sora-SemiBold";
+    width:327px;
+}
+p{
+    color:var(--color-4);
+    display:flex;
+    text-align:center;
+    font-size:14px;
+    font-family: "Sora-Regular";
+    padding-top: 17px;
+    height:42px;
+    width:327px;
+}
+
+.button{
+    margin-top:20px;
+    /*background-color: aqua ;*/
+    display:grid;
+    place-items:center;
+    padding-top:37px;
+
+}
+.button-1{
+    background-color: var(--color-3);
+    position:relative;
+    border-radius: 16px;
+    width:327px;
+    height: 56px;
+    border:none;
+    box-shadow: 0;
+}
+
+
+.text-button{
+    color:var(--color-1);
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+
+
+}
+/*cambios*/
